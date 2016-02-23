@@ -1,0 +1,847 @@
+/*
+   CSS NORMALIZE
+
+   http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed,
+   figure, figcaption, footer, header, hgroup,
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section { 
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul { 
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+
+
+  /*Styling for page */
+
+
+
+  /*fonts */
+
+  .georgia {
+    font-family: georgia;
+  }
+
+  /*add tint to photos*/ 
+
+  .tint{
+    -webkit-filter: brightness(60%) 
+  }
+
+  /*font heirarchy*/
+
+  h1, h2, h3, h4, h5 {
+    color: white;  
+  }
+
+  h1{
+    font-size: 4.6em;
+  }
+
+  h2{
+    font-size: 3.5em;
+  }
+
+  h3{
+    font-size: 2em;
+  }
+
+  h4{
+    font-size: 1em;
+  }
+
+  h5{
+    font-size: .6em;
+  }
+
+  ul{
+    padding-left: 0px;
+  }
+
+  /*end page styling*/
+
+  /*Store list Nav*/
+
+  .store-link{
+    display: inline-block;
+    text-decoration: underline;
+  }
+
+  .store-links{
+    margin-top: 10px;
+    margin-bottom:10px;
+  }
+
+  .nav .navbar-nav{
+    background-color: white;
+    list-style: none;
+  }
+
+
+  li.store-link a{
+    color: silver;
+    font-weight: 200px;
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 10px;
+  }
+
+  li.store-link a:hover {
+    background-color:white;
+    color: silver;
+  }
+
+  /*top section */
+
+  .carousel-inner{
+   max-height:600px;
+ }
+
+
+
+/*navbar toggle */
+.navbar-default{
+  background-color: transparent;
+  border-color:transparent;
+  background-image:none;
+  box-shadow: none;
+  position: absolute;
+  z-index:1000;
+  top: 75px;
+  width: 100%;
+  border:none;
+  
+}
+
+.navbar{
+  margin-bottom: 0px;
+  border:none;
+}
+
+.navbar-toggle{
+  float:left;
+  border:transparent;
+  display:block;
+  margin-top: -10px; /*pull closer to brand image */
+}
+
+/*panel toggle */
+.nav-list-item{
+  margin-right: 25px;
+  margin-bottom:15px;
+  text-decoration: none;
+  font-weight: 100;
+  display: block;
+}
+
+
+.nav{
+  text-align: center;
+  display: block;
+  border:none;
+}
+
+
+.navbar-left, .nav, .navigation {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+
+
+ .navbar-toggle:hover {
+         background-color: transparent! important;
+     }
+
+
+
+
+
+/*toggle on click*/
+
+.navbar-collapse {
+  border-top:none;
+}
+
+.navigation{  
+  display:none;
+  color:black;
+  position: fixed;
+  font-size: 25px;
+  font-weight: 100;
+  font-family:sans-serif;
+}
+
+.navigation:hover{
+  color:transparent;
+}
+
+.navbar-default .navigation>li>a, .navbar-default .navigation>li>a:hover {  /*takes away hover from fixed navbar*/
+  color:transparent;
+  background-image: none;
+  background-color: transparent;
+
+}
+
+.navbar-default .navbar-link{ /*settings part of toggle */
+  color:black;
+  margin-left: 10px;
+}
+
+.navbar-toggle .icon-bar{
+  margin-left: 10px;
+  width: 35px;
+}
+
+
+
+/*nav toggle*/
+span.icon-bar{
+  border:1px white solid;
+}
+
+.navbar-default .toggle .icon-bar {
+ background-color: white;
+}
+
+
+.toggle .icon-bar {
+  display: block;
+  width: 28px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+/*.toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+  }*/
+
+
+
+  .toggle {
+    position: absolute;
+    float: left;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left:20px;
+
+  }
+
+  .toggle:focus {
+    outline: 0;
+  }
+
+
+  li.nav-close a{   /*offset X from rest of navigation*/
+    margin: 0px;
+    margin-left: 260px;
+    padding:0px;
+  }
+
+
+/*
+social media tags 
+*/
+
+#social-and-banner-text{
+  list-style: none;
+  color:white;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+
+h1#we-like-text{
+  text-align: center;
+  font-style: italic;
+  font-weight: 100;
+  margin-top: 40px;
+}
+
+h3#make-it-top-text{
+  text-align: center;
+}
+
+span.symbol{
+  font-weight:100;
+}
+
+
+
+.jumbo-banner{
+ text-align: center;
+  font-style: italic;
+  font-weight: 100;
+  margin-top: 60px;
+}
+
+
+#social-tags-top{
+ margin-top:-420px; /*NOOB */
+ display: block;
+
+}
+
+/*bottom*/
+#social-tags-bottom{
+ margin-top:0px; /*NOOB */
+ display: block;
+ text-align: center;
+}
+
+
+
+#old-navy-brand{
+  margin-left: 20px;
+
+}
+
+
+
+li.search{
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+.search-image{
+  text-align: center; 
+  margin-top: 20px;
+  margin-bottom:20px;
+  
+}
+
+#search-2{
+  display:none;
+}
+
+
+/*Search box*/
+
+#input-box{
+ text-align: center;
+}
+
+input{
+  border: 1px silver solid ; /*border to see when pops below image */
+  color: gray;
+  font-size: 20px;
+  font-weight: 100;
+  height:50px;
+  width:300px;
+  margin-bottom: 70px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+*:focus {
+ outline: none;
+}
+
+/*to move entire search box*/
+.inner-addon {
+  position: relative;
+  margin-top: -170px;
+}
+
+/* style icon */
+.inner-addon .icon {
+  font-size: 25px;
+  padding: 10px;
+  padding-left: 15px;
+  position: absolute;
+  pointer-events: none;
+}
+
+
+/* align icon */
+
+
+/* add padding  */
+.left-addon input  {
+  padding-left:  30px;
+  padding-right: 10px;
+}
+
+.right-addon input {
+  padding-right: 30px;
+}
+
+
+
+
+
+/*job posting section*/
+#postings{
+  background-color: white;
+  height:600px;
+}
+
+.job-catagories{
+  text-align: left;
+  margin: 10px;
+}
+
+.job-catagory{
+  padding-top:0px;
+  padding:50px;
+  padding-top:10px;
+}
+
+#job-catagory1{
+  color:#f77b7b
+}
+
+#job-catagory2{
+  color:#aaaa55;
+}
+
+#job-catagory3{
+  color:#85a4e0;
+}
+
+.job-underline2{
+  border-top: solid #f77b7b 6px;
+}
+
+.job-underline1{
+  border-top: solid #aaaa55 6px;
+}
+
+.job-underline3{
+  border-top: solid #85a4e0 6px;
+}
+
+li.job-title{
+ font-size:15px; 
+ text-decoration: underline;
+ font-weight: 700;
+ margin-bottom: 10px;
+ font-style: bold;
+}
+
+
+#storeList{
+ font-family:sans-serif;
+ font-size:15px;
+ color:gray;
+ 
+ max-height: 400px;
+ font-weight: 100;
+}
+
+
+#international{
+ font-family:sans-serif;
+ font-size:15px;
+ color:gray;
+
+ max-height: 400px;
+ font-weight: 100;
+}
+
+#stores{
+ font-family:sans-serif;
+ font-size:15px;
+ color:gray;
+
+ max-height: 400px;
+ font-weight: 100;
+}
+
+
+li.job-location{
+  margin-bottom: 5px;
+}
+
+li.job-description{
+  margin-bottom: 15px;
+
+}
+
+li.apply1{
+  margin-bottom: 15px;
+  text-decoration: underline;
+  font-weight: 700;
+  color:#aaaa55;
+}
+
+li.apply2{
+  margin-bottom: 15px;
+  text-decoration: underline;
+  font-weight: 700;
+  color:#f77b7b;
+}
+
+li.apply3{
+  margin-bottom: 15px;
+  text-decoration: underline;
+  font-weight: 700;
+  color:#85a4e0;
+}
+
+
+/*bottom carousel section*/
+#carousel-example-generic{
+  overflow: hidden;
+}
+
+
+
+/*indicators*/
+.carousel-indicators{
+  left: 90%;
+}
+
+.carousel-indicators li{
+  background-color: white;
+  border: none;
+  margin-right: 7px; /*space between indicators */
+}
+
+
+.carousel-indicators .active {
+  margin-right: 7px; /*space between active indicator */
+  background-color: #85a4e0;
+}
+
+
+
+/*carousel caption*/
+.carousel-caption{
+  margin-left: -50px;
+  padding-left: 0;
+}
+
+
+.c1{
+  width: 100%;
+}
+
+
+/*map section*/
+#map{
+  background-image: url("../imgs/map.jpg");
+  background-attachment:fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#map-arrow{
+  margin-top: 10px;
+}
+
+
+#box-overlay{
+  background-color: none;
+  text-align: center;
+}
+
+#overlay-text{
+  font-style: italic;
+  font-weight: 500;
+  padding: 20px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-top: 20%;
+  margin-bottom:20%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgba(255, 10, 0, .5);
+}
+
+#overlay-text-top{
+  margin-bottom:20px;
+  font-family:georgia;
+
+}
+
+
+
+/*photo grid section */
+#photo-grid{
+  background-attachment:fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+
+.box-img{
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+
+.box-image{
+  max-height:80%;
+}
+
+
+.thumb{
+  border:none;
+  padding: 0;
+  margin: 0;
+}
+
+.bottom-text-inner{ /*span that controls the text over the image tiles */
+  position: absolute;
+  z-index: 100;
+  color: white;
+  width:100%;
+}
+
+#bottom-text-div{
+  margin-bottom: -250px;
+}
+
+.arrow{
+  margin-top: 30px;
+}
+
+
+
+
+/*show and hide*/
+
+.image-hide{
+  display:inline; 
+}
+
+.show-arrow-mobile{ /*o hide bottom arrow on desktop and show on mobile */
+display:none;
+}
+
+/*show and hide carousel*/
+
+
+div.carousel-medium.carousel.slide{
+display:none;
+}
+
+div.carousel-small.carousel.slide{
+display:none;
+}
+
+/*MEDIA QUERIES */
+
+
+/*@media screen and (max-width: 1140px) {input{margin-bottom: 0px;}
+#brand-image {top: -400px; }
+.jumbo-banner {margin-top: 50px;}
+#social-tags-top {margin-top: -300px;}
+.inner-addon {margin-top:-80px;}
+}
+
+*/
+
+
+/*BREAK POINT TABLET*/
+
+@media screen and (max-width: 1210px){
+  #social-and-banner-text{
+  margin-top: 0px;
+}
+  }
+
+@media screen and (max-width: 1023px){
+
+
+
+/*.jumbo-banner {margin-top: 60px;}
+
+*/
+
+.navbar-default {top: 50px;}
+
+
+#social-tags-bottom{margin-top: 100px;}
+
+
+/*carousel */
+
+.show-image-tablet {display: inline;}
+
+div.carousel-large.carousel.slide{
+display:none;
+}
+
+div.carousel-medium.carousel.slide{
+display:inline;
+}
+
+
+
+
+
+
+/*image hide*/
+
+.image-hide {display:none;}
+
+
+}
+
+/*BREAK POINT MOBILE*/
+
+@media screen and (max-width: 567px){
+
+h1{ font-size: 3.7em;}
+h3{ font-size: 1.3em;}
+
+.navigation{  
+  font-size: 20px;
+}
+
+#old-navy-brand{
+margin-top: 10px;
+}
+
+.navbar-default{
+margin-top: 30px;
+}
+
+#social-and-banner-text{margin-top: 20px;}
+
+.navbar-default {top: 40px;}
+
+
+/*search button */
+#search-1{
+  display:none;
+}
+
+#search-2{
+  display:inline;
+}
+
+/*image gallery photo tags */
+
+.jumbo-banner {margin-top: 50px;}
+
+#social-tags-bottom {margin-top: 50px;}
+
+.social-tag-bottom{margin-top: 40px;}
+
+.arrow{
+  margin-top: 90px;
+}
+
+.show-arrow-mobile{
+  display: inline;
+}
+
+
+/*on click nav list */
+.navigation{
+  top: 60px;
+}
+
+/*map section */
+div#overlay-text{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#overlay-bottom-text{
+  display:none;
+}
+
+#bottom-text-div{
+  margin-bottom: -120px;
+}
+
+
+/*carousel */
+.carousel-indicators{
+  left: 80%;
+}
+
+div.carousel-large.carousel.slide{
+display:none;
+}
+
+div.carousel-medium.carousel.slide{
+display:none;
+}
+
+div.carousel-small.carousel.slide{
+display:inline;
+}
+
+
+/*jobs
+*/
+.job-catagories{
+  margin-top: 30px;
+}
+
+#storeList, #international, #stores{
+ overflow:hidden;
+ max-height: 100px;
+}
+.job-catagory{
+  padding:15px;
+}
+
+}
+
+body, html {
+  width: auto !important;
+  overflow-x: hidden !important;
+
+
+
