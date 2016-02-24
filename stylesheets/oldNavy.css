@@ -637,7 +637,8 @@ display:inline;
   display:none;
   color:black;
   position: fixed;
-  font-size: 15px;}
+  font-size: 10px;
+}
 
 h1{ font-size: 3.7em;}
 h3{ font-size: 1.3em;}
