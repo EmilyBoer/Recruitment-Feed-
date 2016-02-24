@@ -423,7 +423,7 @@ textarea:focus, input:focus{
 
 
 /*job posting section*/
-
+ƒ
 
 
 /*bottom carousel section*/
@@ -463,7 +463,7 @@ textarea:focus, input:focus{
   width: 100%;
 }
 
-
+ƒ
 /*map section*/
 #map{
   background-image: url("../imgs/map.jpg");
@@ -632,6 +632,12 @@ display:inline;
 /*BREAK POINT MOBILE*/
 
 @media screen and (max-width: 567px){
+
+  .navigation{  
+  display:none;
+  color:black;
+  position: fixed;
+  font-size: 15px;}
 
 h1{ font-size: 3.7em;}
 h3{ font-size: 1.3em;}
