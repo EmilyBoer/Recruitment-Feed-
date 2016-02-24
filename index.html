@@ -30,6 +30,9 @@
 
   <!--  Social Media fonts  -->
 
+
+
+
 </head>
 
 <body>
@@ -534,7 +537,24 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" ></script>
 
-<script src='js/oldNavy.js'></script>
 
+
+<script>
+  $(".navbarToggle").click(function(){ 
+    $(".navigation").toggle();
+    $(".store-links, #postings, #map, #brand, .img-responsive").css({"opacity": "0.2"});
+    $(".navbar-text, .navigation,  .navbar-default, .navigation>li>a").css({"color": "black"});
+    $(".carousel-indicators, #input-box, #brand, img#search-2.search, #jumbo-banner, #social-and-banner-text").css({"opacity": "0.2"});
+});
+
+
+$("a.nav-close").click(function(){
+    $(".carousel-indicators, #input-box, #brand, img#search-2.search, #jumbo-banner, #social-and-banner-text").css({"opacity": "1"});
+    $(".store-links, #postings, #map, #brand, .img-responsive").css({"opacity": "1"});
+    $(" .navigation").toggle();
+
+});
+
+</script>
 
 </html>
