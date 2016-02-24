@@ -633,18 +633,13 @@ display:inline;
 
 @media screen and (max-width: 567px){
 
-  .navigation{  
-  display:none;
-  color:black;
-  position: fixed;
-  font-size: 5px;
-}
+
 
 h1{ font-size: 3.7em;}
 h3{ font-size: 1.3em;}
 
-.navigation{  
-  font-size: 20px;
+  .navigation{  
+  font-size: 10px;
 }
 
 #old-navy-brand{
