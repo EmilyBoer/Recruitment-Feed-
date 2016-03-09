@@ -594,7 +594,8 @@ li.apply3{
 
 .job-catagory{
   padding-top:0px;
-  padding:10px;
+  padding:50px;
+  padding-top:10px;
 }
 
 #job-catagory1{
@@ -1301,7 +1302,7 @@ div.owl-dot.active{
 
   #storeList, #international, #stores{
  overflow:hidden;
- max-height: 130px;
+ max-height: 150px;
 }
 
   .job-catagories{
@@ -1447,6 +1448,11 @@ div.carousel-small-3{
     margin-top: 40px;
   }
 
+.job-catagory{
+  padding-top:0px;
+  padding:10px;
+  padding-top:10px;
+}
 
 
   .bottom-text-inner{ /*span that controls the text over the image tiles */
