@@ -379,9 +379,9 @@
     <div id="carousel-small-2" class=" carousel slide" data-ride="carousel">
 
       <ol class="carousel-indicators">
-        <li data-target="#carousel-small-2"  data-slide-to="prev" class="active"></li>
-        <li data-target="#carousel-small-2"  data-slide-to="prev"></li>
-        <li data-target="#carousel-small-2"  data-slide-to="prev"></li>
+        <li data-target="#carousel-small-2"  data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-small-2"  data-slide-to="1"></li>
+        <li data-target="#carousel-small-2"  data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
 
@@ -534,11 +534,11 @@
 
 <script>  
 $(document).ready(function() {  
-   $("#carousel-small-2").swiperight(function() {  
-      $("#carousel-small-2").carousel('prev');  
+   $("#carousel-small-2, #carousel-large-top").swiperight(function() {  
+      $("#carousel-small-2, #carousel-large-top").carousel('prev');  
     });  
-   $("#carousel-small-2").swipeleft(function() {  
-      $("#carousel-small-2").carousel('next');  
+   $("#carousel-small-2, #carousel-large-top").swipeleft(function() {  
+      $("#carousel-small-2, #carousel-large-top").carousel('next');  
    });  
 });  
 </script>  
