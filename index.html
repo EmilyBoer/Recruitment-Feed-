@@ -529,19 +529,23 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" ></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <script src="bootstrap/js/bootstrap.js"></script>
-<script src="jquery.bcSwipe.js"></script>
+<script src="bootstrap-carousel.js"></script>
+<script src="jquery.mobile.custom.min.js"></script>
+
+<script>  
+$(document).ready(function() {  
+   $("#carousel-small-3").swiperight(function() {  
+      $("#carousel-small-3").carousel('prev');  
+    });  
+   $("#carousel-small-3").swipeleft(function() {  
+      $("#carousel-small-3").carousel('next');  
+   });  
+});  
+</script>  
 
 
 
 
-
-
-<script>
-
-
-$('#carousel-small-3').bcSwipe({ threshold: 50 });
-
-</script>
 
 
 
