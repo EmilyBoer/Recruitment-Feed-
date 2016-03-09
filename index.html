@@ -528,7 +528,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" ></script>
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
 
@@ -547,11 +546,11 @@
 
   $(document).ready(function() {  
           //add your other targets here
-       $("#carousel-medium-bottom, #carousel-small-2", "#carousel-large-bottom").swiperight(function() {  
+       $("#carousel-small-2").swiperight(function() {  
           $(this).carousel('prev');  
           });  
 //add your other targets here
-       $("#carousel-medium-bottom, #carousel-small-2", "#carousel-large-bottom").swipeleft(function() {  
+       $("#carousel-small-2").swipeleft(function() {  
           $(this).carousel('next');  
      });  
   });  
