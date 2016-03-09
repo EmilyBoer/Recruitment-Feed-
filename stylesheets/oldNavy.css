@@ -455,6 +455,7 @@ input[type="button"]{
   padding-top:0px;
   padding:50px;
   padding-top:10px;
+  padding-bottom:50px;
 }
 
 #job-catagory1{
@@ -1451,7 +1452,6 @@ div.carousel-small-3{
 .job-catagory{
   padding-top:0px;
   padding:10px;
-
   padding-top:10px;
 }
 
