@@ -1,5 +1,3 @@
-
-
 /*
    CSS NORMALIZE
 
@@ -642,11 +640,7 @@ button.see-more-jobs{
 
 }
 
-#owl-demo .item img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
+
 
 
 
@@ -1460,6 +1454,36 @@ div.carousel-small-3{
 
 
 
+}
+
+.owl-img{
+
+
+    z-index: 4;
+}
+
+
+
+.owl-dots{
+  margin-top: -30px;
+  z-index: 1000;
+  margin-left: 85%;
+  position: absolute;
+
+}
+
+div.owl-dot{
+  border: 5px white solid;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+div.owl-dot.active{
+  border: 5px red solid;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 
