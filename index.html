@@ -302,36 +302,13 @@
 
 <section id="carousel-two">
 
-  <div class= "carousel-large-2">
-    <div id="carousel-large-bottom" class=" carousel slide" data-ride="carousel">
-
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-large-bottom"  data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-large-bottom"  data-slide-to="1"></li>
-        <li data-target="#carousel-large-bottom"  data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-
-        <!-- Wrapper for slides -->
-
-        <!--  first image -->
-
-
-          <div class="item active">
-            <img class= "img-responsive " src="imgs/matt_desktop.jpg" width='2458' height ='960' alt="..."/>
-          </div>
-
-          <div class=" item">
-            <img class= "img-responsive " src="imgs/kristina_desktop.jpg" width='2458' height ='960' alt="..."/>
-           
-          </div>
-
-          <div class="item ">
-            <img class= "img-responsive " src="imgs/dana_desktop.jpg" width='2458' height ='960' alt="..."/>
-          </div>
-
-        </div>
-      </div>
+  <div id="owl-demo" class="owl-carousel owl-theme">
+ 
+  <div class="item"><img src="assets/fullimage1.jpg" alt="The Last of us"></div>
+  <div class="item"><img src="assets/fullimage2.jpg" alt="GTA V"></div>
+  <div class="item"><img src="assets/fullimage3.jpg" alt="Mirror Edge"></div>
+ 
+</div>
 
     </div>
   
@@ -533,14 +510,25 @@
 
 
 <script>  
-$(document).ready(function() {  
-   $("#carousel-small-2, #carousel-large-top").swiperight(function() {  
-      $("#carousel-small-2, #carousel-large-top").carousel('prev');  
-    });  
-   $("#carousel-small-2, #carousel-large-top").swipeleft(function() {  
-      $("#carousel-small-2, #carousel-large-top").carousel('next');  
-   });  
-});  
+$(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+ 
+});
 </script>  
 
 
