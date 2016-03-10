@@ -618,22 +618,30 @@ li.apply3{
   padding-top:0px;
   padding:50px;
   padding-top:10px;
+  letter-spacing: 1px;
 }
 
 #job-catagory1{
   color:#b3b300;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: sans-serif;
 }
 
 #job-catagory2{
   color:#b3b3ff;
+   font-weight: 500;
+  font-size: 23px;
 }
 
 #job-catagory3{
   color:#c65353;
+  font-weight: 500;
+  font-size: 26px;
 }
 
 .job-underline1{
-  border-top: solid #b3b300 6px;
+  border-top: solid #b3b300 4px;
 }
 
 .job-underline2{
@@ -1026,9 +1034,9 @@ button{
 }
 
 
-.load_btn{
+button.jLoadMore.load_btn{
     margin:0px;
-   background:white;
+  background:white;
   font-weight: 100;
   font-size: 12px;
   webkit-box-shadow:none;
@@ -1061,9 +1069,6 @@ p.title:hover{
 .owl-img{
     z-index: 4;
 }
-
-
-
 
 .owl-dots{
   margin-top: -30px;
