@@ -1013,7 +1013,7 @@ iframe{
 width:500px;
 }
 
-iframe > button.jLoadMore.load_btn{
+iframe html body #container div div  jobs_filters_area #job_results_list_hldr button.jLoadMore.load_btn{
     margin:0px;
   background:white;
   font-weight: 100;
@@ -1023,9 +1023,9 @@ iframe > button.jLoadMore.load_btn{
   text-align: right;
 }
 
-button{
+iframe > button{
   margin:0px;
-  background:white;
+  background:white;xs
   font-weight: 100;
   font-size: 12px;
   webkit-box-shadow:none;
