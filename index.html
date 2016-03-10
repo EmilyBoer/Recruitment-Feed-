@@ -413,16 +413,16 @@
 <script>
   $(".navbarToggle").click(function(){ 
     $(".navigation").show();
-    $(".store-links, #postings, #map, #brand, #footer, .img-responsive").css({"opacity": "0.2"});
+    $(".store-links, #postings, .owl-dot, .owl-carousel, .search-image, #map, #brand, #footer, .image-gallery").css({"opacity": "0.2"});
     $(".navbar-text, .navigation,  .navbar-default, .navigation>li>a").css({"color": "black"});
     $("#jumbo-banner, #social-and-banner-text").css({"display": "none"});
     $(".carousel-indicators, #input-box, #brand, img#search-2.search, #jumbo-banner, #social-and-banner-text").css({"opacity": "0.2"});
   });
 
 
-  $("a.nav-close").click(function(){
-    $(".carousel-indicators, #input-box, #brand, #footer, img#search-2.search, #jumbo-banner, #social-and-banner-text").css({"opacity": "1"});
-    $(".store-links, #postings, #map, #brand, .img-responsive").css({"opacity": "1"});
+  $("a.nav-close, .img-responsive, #postings, #map, .image-gallery, #footer").click(function(){
+    $(".carousel-indicators, #input-box, .owl-carousel, .owl-dot, .search-image, #brand, #footer, img#search-2.search, #jumbo-banner, #social-and-banner-text").css({"opacity": "1"});
+    $(".store-links, #postings, #map, #brand, .image-gallery").css({"opacity": "1"});
     $("#jumbo-banner, #social-and-banner-text").css({"display": "inline"});
     $(" .navigation").hide();
 
