@@ -1013,9 +1013,9 @@ iframe{
 width:500px;
 }
 
-button.jLoadMore.load_btn {
-   margin:0px;
-   background:white;
+iframe > button.jLoadMore.load_btn{
+    margin:0px;
+  background:white;
   font-weight: 100;
   font-size: 12px;
   webkit-box-shadow:none;
@@ -1034,7 +1034,7 @@ button{
 }
 
 
-button.jLoadMore.load_btn{
+.load_btn{
     margin:0px;
   background:white;
   font-weight: 100;
