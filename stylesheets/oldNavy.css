@@ -1390,12 +1390,7 @@ div.carousel-medium-2{
   min-height: 500px;
 }
 
-h1#we-like-text-mobile{
-      text-align: center;
-    font-style: italic;
-    font-family: georgia;
-    font-weight: 100;
-}
+
  
  .owl-dots{
   margin-top: -30px;
@@ -1471,14 +1466,8 @@ margin-top: 0px;
 }
 
 
-#we-like-text-mobile{
-  text-align: center;
-  font-family:georgia;
-}
 
-#we-like-text-mobile-2{
-  text-align: center;
-}
+
 
 #make-it-top-text-mobile{
   text-align: center;
@@ -1486,12 +1475,7 @@ margin-top: 0px;
   font-family: sans-serif;  
 }
 
-h1#we-like-text-mobile{
-      text-align: center;
-    font-style: italic;
-    font-family: georgia;
-    font-weight: 100;
-}
+
 
 
 div.carousel-small-2{
@@ -1614,9 +1598,12 @@ div#overlay-text{
   left: 80%;
 }
 
-
-
-
+h1#we-like-text-mobile{
+    text-align: center;
+    font-style: italic;
+    font-family: georgia;
+    font-weight: 100;
+}
 }
 
 
@@ -1653,6 +1640,12 @@ div.carousel-small-3{
   display:inline;
 }
 
+h1#we-like-text-mobile{
+    text-align: center;
+    font-style: italic;
+    font-family: georgia;
+    font-weight: 100;
+}
 
 
 }
