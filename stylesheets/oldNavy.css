@@ -1604,6 +1604,13 @@ h1#we-like-text-mobile{
     font-family: georgia;
     font-weight: 100;
 }
+
+h1#we-like-text-mobile-2{
+    text-align: center;
+    font-style: italic;
+    font-family: georgia;
+    font-weight: 100;
+}
 }
 
 
