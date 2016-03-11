@@ -1389,6 +1389,13 @@ div.carousel-medium-2{
 #map{
   min-height: 500px;
 }
+
+h1#we-like-text-mobile{
+      text-align: center;
+    font-style: italic;
+    font-family: georgia;
+    font-weight: 100;
+}
  
  .owl-dots{
   margin-top: -30px;
@@ -1607,6 +1614,10 @@ div#overlay-text{
 
 
 @media screen and (max-width: 443px){
+
+.sub-nav{
+      top: 30px;
+    }
 
 div.carousel-large-2{
   display:none;
