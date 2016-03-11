@@ -1561,7 +1561,6 @@ div.carousel-small-3{
   .jumbo-banner {margin-top: 40px;
     line-height: 1.2;
    font-size: 2.5em;
-   font-weight:300;
  }
 
   #social-tags-bottom {margin-top: 80px;}
@@ -1610,14 +1609,14 @@ h1#we-like-text-mobile{
     text-align: center;
     font-style: italic;
     font-family: georgia;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 h1#we-like-text-mobile-2{
     text-align: center;
     font-style: italic;
     font-family: georgia;
-    font-weight: 100;
+    font-weight: 300;
 }
 }
 
@@ -1659,7 +1658,7 @@ h1#we-like-text-mobile{
     text-align: center;
     font-style: italic;
     font-family: georgia;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 
