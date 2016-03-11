@@ -754,23 +754,34 @@ div#box-overlay{
 
 }
 
+
+
+
+div#overlay-text{
+mix-blend-mode: multiply;
+}
+
+
 div#overlay-text{
   padding: 10px;
   padding-top: 3%;
   padding-bottom: 3%;
   margin-right: 20%;
   margin-left:20%;
-  background-color: #bf4040;
-  opacity: .7;
+  background-color: #c65353;
+  color:rgba(#c65353, .7);
   margin-top: 10%;
-  color:white;
-  background-blend-mode: multiply;
+  color:rgba(#fff, 1);
   line-height: 1.2;
 }
 
+
+
+
+
 h3#overlay-bottom-text{
   font-family:sans-serif;
-  color:white;
+  color:rgba(#fff, 1);
   margin-bottom: 30px;
 }
 
@@ -782,6 +793,7 @@ h3#overlay-bottom-text{
   font-family:georgia;
   font-style: italic;
   font-weight: 500;
+  color:rgba(#fff, 1);
 
 }
 
@@ -966,7 +978,13 @@ a.bottom-nav{
   font-size: 15px;
 }
 
+a#map-arrow-top{
+  padding:100px;
+}
 
+a#map-arrow-bottom{
+  padding:100px;
+}
 
 .gap-copywrite > a{
   color: gray;
@@ -1567,8 +1585,8 @@ div.carousel-small-3{
 
 
 div#overlay-text{
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 8%;
+  margin-left: 8%;
 }
 
 
