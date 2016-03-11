@@ -1486,6 +1486,13 @@ margin-top: 0px;
   font-family: sans-serif;  
 }
 
+h1#we-like-text-mobile{
+      text-align: center;
+    font-style: italic;
+    font-family: georgia;
+    font-weight: 100;
+}
+
 
 div.carousel-small-2{
   display:inline;
