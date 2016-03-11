@@ -1238,6 +1238,9 @@ h2#overlay-text-top{
 
 } 
 
+.jumbo-banner{
+  font-size: 2.5em;
+}
 
 /* end map */
 
@@ -1344,6 +1347,8 @@ font-size: 3.7em;
 
   .jumbo-banner {
     margin-top: 40px;
+  font-size: 2.5em;
+}
   }
 
   #social-tags-bottom {
@@ -1554,7 +1559,9 @@ div.carousel-small-3{
   /*image gallery photo tags */
 
   .jumbo-banner {margin-top: 40px;
-    line-height: 1.2;}
+    line-height: 1.2;
+   font-size: 2.5em;
+ }
 
   #social-tags-bottom {margin-top: 80px;}
 
