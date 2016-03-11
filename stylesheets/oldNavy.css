@@ -792,7 +792,7 @@ h3#overlay-bottom-text{
   margin-bottom: 40px;
   font-family:georgia;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 100;
   color:rgba(#fff, 1);
 
 }
@@ -1349,7 +1349,7 @@ font-size: 3.7em;
     margin-top: 40px;
   font-size: 2.5em;
 }
-  }
+  
 
   #social-tags-bottom {
     margin-top: 50px;
